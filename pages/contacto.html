@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Varela+Round&display=swap" rel="stylesheet">
+    <title>El Tocador de Nadia</title>
+</head>
+<body>
+    <div id="grilla2Layout">
+        <header class="tituloPrincipal">
+            <h1>El Tocador de Nadia</h1>
+        </header>
+        <nav>
+            <ul class="menuPrincipal">
+                <li><a href="../index.html">Home</a></li>
+                <li class="menu1"><a href="./fragancias.html">Fragancias</a></li>
+                <li class="menu2"> <a href="./maquillaje.html">Maquillaje</a></li>
+                <li><a href="./tratamiento.html">Tratamiento</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <section>
+            <h2>Contacto</h2>
+            <form action="">
+                <div id="grillaContacto">
+                    <label id="cajaNombre" for="nombre">Nombre</label>
+                    <input type="text" name="nombre" placeholder="Ingrese su nombre" id="respuestaNombre" class="fuenteContacto">
+                    <label id="cajaApellido" for="nombre">Apellido</label>
+                    <input type="text" name="Apellido" placeholder="Ingrese su apellido" id="respuestaApellido" class="fuenteContacto">   
+                    <label id="cajaMail"  for="nombre">E-mail</label>
+                    <input type="text" name="email" placeholder="Ingrese su e-mail" id="respuestaMail" class="fuenteContacto">     
+                    <legend id="cajaFavorita">Tu Sección Favorita</legend>
+                    <select name="favorita" id="seleccion" class="fuenteContacto">
+                        <option value="s">Fragancias</option>
+                        <option value="s">Maquillaje</option>
+                        <option value="s">Tratamiento</option>
+                    </select>
+                    <h4 id="contactoParte2" class="datoFormulario">Desea recibir el catálogo?</h4> 
+                    <input type="checkbox" name="acepta" id="check" class="fuenteContacto">   
+                    <h4 id="tituloComentario">Déjenos su comentario</h4>
+                    <textarea name="comentario" id="campoComentario" cols="50" rows="10" class="fuenteContacto"></textarea>
+                        <input id="boton1" type="submit" value="Enviar Formulario" class="fuenteContacto">
+                        <input id="boton2" type="reset" value="Limpiar Formulario" class="fuenteContacto">
+                </div>
+            </form>
+        </section>
+        <aside id="barraLateral">
+            <h5>Encontranos en:</h5>
+            <div>
+                <a href=""><img class="iconosRedes" src="../assets/icons/facebook.png" alt=""></a>
+                <a href=""><img class="iconosRedes" src="../assets/icons/twitter.png" alt=""></a>
+                <a href=""><img class="iconosRedes" src="../assets/icons/instagram.png" alt=""></a>
+                <a href=""><img class="iconosRedes" src="../assets/icons/whatsapp.png" alt=""></a>
+            </div>
+        </aside>
+        <footer>
+            <ul>
+                <li><a href="">Seguimiento de envío</a></li>
+                <li><a href="">Preguntas frecuentes</a></li>
+                <li><a href="">Envíos y medios de pago</a></li>
+                <li><a href="">Compras corporativas</a></li>
+                <li><a href="">Términos y condiciones</a></li>
+            </ul>
+        </footer>
+    </div>
+</body>
+</html>
